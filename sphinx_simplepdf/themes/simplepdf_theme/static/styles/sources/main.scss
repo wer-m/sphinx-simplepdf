@@ -83,6 +83,7 @@ html {
       color: $primary;
       font-size: 30pt;
       page-break-before: always;
+      string-set: heading content();
     }
 
     h2, h3, h4 {
@@ -91,9 +92,8 @@ html {
     }
 
     h2 {
-      page-break-before: always;
+      page-break-before: avoid;
       font-size: 28pt;
-      string-set: heading content();
     }
 
     h3 {
